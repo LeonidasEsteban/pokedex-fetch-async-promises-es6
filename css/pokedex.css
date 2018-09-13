@@ -1,0 +1,50 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+.pokedex {
+  background: #ff0464;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 450px;
+}
+
+.pantalla {
+  background: #94c594;
+  border: 15px solid white;
+  height: 200px;
+  /* padding-top: 50px; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* alinea verticalmente si la dirección está en fila */
+  /* flex-direction: 'row'; */
+}
+.loader {
+  object-fit: none;
+}
+
+.loader.hidden {
+  display: none;
+}
+
+
+/*  sobre flex & grid */
+/* flex para componentes */
+/* grid para layout */
+
+/* El modelo de caja */
+/* El modelo de caja en css el formado por height, width, border, padding, margin */
+
+.nombre {
+  font-size: 40px;
+}
+
+.nombre::first-letter {
+  text-transform: uppercase;
+}
